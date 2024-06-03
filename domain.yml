@@ -1,0 +1,13 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you today?"
+  utter_goodbye:
+    - text: "Goodbye! Have a nice day."
+
+actions: []
